@@ -77,14 +77,14 @@ main section{
     
 }
 body{
-    background-color: lightgrey;
+    background-color:lightgray
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     padding: 0;
     margin: 0;
 }
 header{
-    background-color: lightyellow;
+    background-color:lightyellow;
 }
 nav a:hover{
     background-color:lightskyblue;
