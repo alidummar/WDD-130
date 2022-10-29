@@ -11,6 +11,8 @@ nav a{
 }
 #hero-msg h1{
     text-align: center;
+    color: white;
+    
 }
 #hero-msg h4{
     text-align: center;
@@ -143,9 +145,11 @@ footer .social img{
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
-    margin: 50px auto;
-    width: 60px;
 
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 50px auto;
+    width: 60%;
 }
 .card-img{
     border: solid black 10px;
