@@ -39,7 +39,7 @@ body {
 }
 img {
  
-  width: 1%;
+  max-width: 500px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
