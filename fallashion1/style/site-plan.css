@@ -101,12 +101,10 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
   list-style-type: none;
   display: flex;
-
 }
+
 nav a {
   padding:1em;
   min-width: 120px;
@@ -171,5 +169,5 @@ nav a:hover {
   border-right: 1px solid;
 }
 img{
-  max-width: 200px;
+  max-width: 450px;
 }
