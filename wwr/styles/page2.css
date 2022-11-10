@@ -1,0 +1,23 @@
+
+h1{
+    text-align: center;
+}
+#pic1{
+    width: 100%;
+    border: 5px black solid;
+}
+#pic2{
+    width: 100%;
+    border: 5px black solid;
+    
+  
+
+}
+#imagesmy{
+    display: flex;
+    
+}
+
+h2, p{
+    padding: 5px;
+}
