@@ -1,0 +1,187 @@
+img{
+    max-width: 250PX;
+
+}
+header{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+h1{
+  text-align: center;
+  grid-column: 1/3;
+}
+#logolink{
+        width: 150px;
+        float:left;
+        margin-top:16px;
+        cursor: pointer;
+        grid-column: 1/2;
+        width: 75%;
+        grid-row: 1/2;
+}
+body {
+    background-color: #FED0BB;
+    
+  }
+  #homegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    justify-items: center;
+  }
+  h1{
+    color: #B23A48;
+  }
+  nav {
+    text-align: center;
+    margin: 50px ;
+    padding: 15px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+ }
+ nav a {
+  display: inline-block;
+  border: 3px solid darkolivegreen;
+  width: 150px;
+  line-height: 50px;
+  background-color: white;
+  color: black;
+  margin-right: 10px;
+  vertical-align: middle;
+  align-items: left;
+ }
+ nav a:hover{
+  display: inline-block;
+  border: 3px solid peachpuff;
+  width: 150px;
+  line-height: 50px;
+  background-color:#B23A48;
+  color:#FCB9B2;
+ }
+  #couple{
+grid-column: 1/2;
+grid-row: 1/2;
+  }
+#pic23{
+grid-column: 1/3;
+grid-row: 2/3;
+}
+#man4{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+#pic20{
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+#man5{
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+#pic17{
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+#pic26{
+  grid-column: 5/6;
+  grid-row: 1/2;
+}
+p{
+grid-column: 3/4;
+line-height: 30px;
+}
+footer{
+
+}
+footer a{
+  color: black;
+}
+@media screen and (max-width: 750px) {
+  body{
+    display: block;
+  }
+  header,main,footer{
+    display: block;
+  }
+}
+#mensgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+}
+#man1{
+grid-column: 1/2;
+grid-row: 2/3;
+}
+
+#man3{
+grid-column: 1/3;
+grid-row: 1/2;
+}
+#man44{
+grid-column: 2/4;
+grid-row: 1/2;
+}
+#man55{
+grid-column: 3/5;
+grid-row: 1/2;
+}
+#man6{
+grid-column: 4/5;
+grid-row: 2/3;
+}
+#mensgrid p{
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+#womengrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+}
+#pic18{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#pic19{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+#girl1{
+grid-column: 2/3;
+grid-row: 2/3;
+}
+#girl3{
+grid-column: 3/4;
+grid-row: 2/3;
+}
+#pic226{
+  grid-column: 4/5;
+  grid-row: 2/3;
+  }
+#pic223{
+grid-column: 4/5;
+grid-row: 1/2;
+}
+#womengrid p{
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+#homebody{
+background-color:  #FED0BB;
+color: black;
+}
+#menbody{
+background-color: white;
+color: black;
+}
+#womenbody{
+background-color:  #FCB9B2;
+color: black;
+}
+.alternatetitle{
+  color: black;
+}
