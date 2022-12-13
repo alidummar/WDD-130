@@ -7,10 +7,15 @@ header{
     display: grid;
     grid-template-columns: 200px 1fr;
     background-color: papayawhip;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 20px;
 }
 h1{
   text-align: center;
   grid-column: 1/3;
+  font-weight: bold;
+  font-style: oblique;
 }
 #logolink{
         width: 150px;
@@ -24,8 +29,7 @@ h1{
 }
 body {
     background-color: #FED0BB;
-    
-  }
+}
   #homegrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -105,18 +109,24 @@ grid-column: 3/4;
 line-height: 30px;
 border: 3px solid #B23A48;
 text-align: left;
+font-weight: bold;
+font-size: 125%;
 }
 #womenp{
 grid-column: 3/4;
 line-height: 30px;
 border: 3px solid peachpuff;
 text-align: left;
+font-weight: bold;
+font-size: 125%;
 }
 #mensp{
 grid-column: 3/4;
 line-height: 30px;
 border: 3px solid #FED0BB;
 text-align: left;
+font-weight: bold;
+font-size: 125%;
 }
 footer{
   text-align: left
